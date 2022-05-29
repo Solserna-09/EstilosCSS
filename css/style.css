@@ -1,0 +1,213 @@
+
+
+/* Aplicar estilo por propiedad card de la etiqueta div */
+
+
+
+/* cuando despplace el mas del card se aumenta la sombra */
+.card{
+    
+    align-items: center; 
+
+}
+
+
+
+/* Aplicar estilo llamando etiqueta ul */
+
+
+ul{
+    border-radius: 10px;  
+    padding-top: 30px; 
+
+    display: flex;
+    /* espacios --justify-content: space-evenly;*/
+    justify-content: space-evenly;
+    /* alineacion -- align-items: stretch;*/
+    align-items: center;  
+    flex-direction: row;    
+    background-color: rgb(219, 200, 213); 
+        
+    
+   
+   
+    
+}
+
+
+
+li a{
+  
+
+/* espacios --justify-content: space-evenly;*/
+justify-content: space-between;
+/* alineacion -- align-items: stretch;*/
+align-items: center;  
+flex-direction: row;    
+width: 100px;
+
+}
+
+
+img{
+    
+    justify-content: flex-start;
+
+}
+
+li a:hover{
+    background-color: rgb(219, 200, 213);
+  
+    
+}
+
+li a.active{
+    background-color: #04aa04;
+    color: white;
+}
+input{
+    display: flex;
+    /* espacios --justify-content: space-evenly;*/
+    justify-content: space-between;
+    /* alineacion -- align-items: stretch;*/
+    align-items: center;  
+    flex-direction: row;              
+    
+   
+ 
+
+}
+
+
+body{
+  height: 100%; 
+  font-family: 'Noto Sans', sans-serif;
+  background-color: #b66fa5; 
+}
+
+
+.contact_form{  
+  width: 460px; 
+  height: auto;
+  margin: 80px auto;
+  border-radius: 10px;  
+  padding-top: 30px;
+  padding-bottom: 20px;  
+  background-color: #fbfbfb; 
+  padding-left: 30px; 
+}
+
+
+input{
+  background-color: #fbfbfb; 
+  width: 408px; 
+  height: 40px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #ab4493; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+}
+
+
+textarea{
+  background-color: #fbfbfb; 
+  width: 405px; 
+  height: 150px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #e49dd2; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+  padding-top: 15px; 
+}
+
+
+label{
+  display: block; 
+  float: center;  
+}
+
+
+button{
+  height: 35px; 
+  padding-left: 5px;
+  padding-right: 5px;   
+  margin-bottom: 15px; 
+  margin-top: 10px;   
+  text-transform: uppercase;
+  background-color: #eccfe6; 
+  border-color: #f8f0f6; 
+  border-style: solid; 
+  border-radius: 10px;  
+  width: 410px;   
+  cursor: pointer;
+}
+
+
+button p{
+  color: #fff; 
+}
+
+
+span{
+  color: #ab4493; 
+}
+
+
+.aviso{
+  font-size: 13px;  
+  color: #0e0e0e;  
+}
+
+
+h1{
+  font-size: 39px;  
+  text-align: letf; 
+  padding-bottom: 20px; 
+  color: #ab4493;
+}
+
+
+h3{
+  font-size: 16px; 
+  padding-bottom: 30px;
+  color: #0e0e0e;   
+ 
+  
+}
+
+
+p{
+  font-size: 14px; 
+  color: #853636; 
+}
+
+
+::-webkit-input-placeholder {
+ color: #a8a8a8;
+}
+
+
+::-webkit-textarea-placeholder {
+ color: #a8a8a8;
+}
+
+
+.formulario input:focus{
+  outline:0;
+  border: 1px solid #97d848;
+}
+
+
+.formulario textarea:focus{
+  outline:0;
+  border: 1px solid #97d848;
+}
+
+
+
